@@ -1,0 +1,1 @@
+let nav=document.querySelector(".nav"),menu=document.querySelector(".menu");function openMenu(){menu.classList.add("--opened")}function closeMenu(){menu.classList.remove("--opened")}window.addEventListener("scroll",(function(){this.scrollY>1?nav.classList.add("--fixed"):nav.classList.remove("--fixed")}));
